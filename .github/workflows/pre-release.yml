@@ -1,8 +1,5 @@
 name: Pre release
-on:
-  push:
-    tags:
-      - "v*-rc*"
+on: workflow_dispatch
 
 jobs:
   create_github_release:
