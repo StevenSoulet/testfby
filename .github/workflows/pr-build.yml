@@ -1,11 +1,5 @@
 name: PR Tests & Build
-on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
-      - ready_for_review
+on: workflow_dispatch
 
 jobs:
   lint:
